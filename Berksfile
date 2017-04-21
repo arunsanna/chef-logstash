@@ -8,4 +8,5 @@ group :test do
   cookbook 'elasticsearch', git: 'https://github.com/elasticsearch/cookbook-elasticsearch.git'
   cookbook 'kibana_lwrp', git: 'https://github.com/lusis/chef-kibana.git'
   cookbook 'beaver'
+  cookbook 'poise-python'
 end
